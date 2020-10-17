@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+header .navbar {
+  box-shadow: 0 2px 11px rgba(0, 0, 0, 0.2);
+  padding: 12px 20px;
+}
 .btn-cart {
   font-size: 1.5rem;
   padding: 2px 15px;
@@ -67,7 +71,7 @@
   max-width: 500px;
   transform: translateX(-100%);
   transition: 0.5s;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 .cartList.active .cartList-inner {
@@ -116,4 +120,9 @@
 }
 .cartItems {
   padding-bottom: 120px;
+}
+.section-title {
+  margin-top: 88px;
+  text-align: center;
+  margin-bottom: 29px;
 }

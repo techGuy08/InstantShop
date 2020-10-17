@@ -23,7 +23,7 @@
     <div class="fluid-container">
       <header class="fixed-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">InstantShop</a>
+          <a class="navbar-brand font-weight-bold" href="#">InstantShop</a>
           <div class="d-flex justify-content-end ml-auto">
             <button class="btn btn-outline-dark btn-cart" data-count="2">
               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
@@ -36,12 +36,10 @@
       <div id="cartList" class="cartList">
         <div
           class="bg"
-          onclick="((e)=>{e.target.parentElement.classList.remove('active')})(event)"
         ></div>
         <div class="cartList-inner">
           <button
             class="btn btn-closeCart"
-            onclick="((e)=>{document.querySelector('#cartList').classList.remove('active')})(event)"
           >
             <i class="fa fa-times-circle" aria-hidden="true"></i>
           </button>
@@ -66,6 +64,5 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/bundle.js"></script>
   </body>
 </html>
